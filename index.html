@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>WTF</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <!-- Logo -->
+      <a class="navbar-brand" href="#">
+        <img src="assets/image/nexo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+        NEXORA
+      </a>
+      <!-- Navbar Toggler -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Navbar Links -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">About US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Shop-now</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Blog</a>
+          </li>
+
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-4" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+
+  </nav>
+  <div class="hero">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="centre-align">
+    <h1>Welcome to <span>NEXORA</span></h1>
+    <p>Your success, our mission.</p>
+    <a href="#services" class="btn">Explore Services</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="owl-carousel">
+    
+      <div class="item"><img src="assets/image/we.png" alt="Slide 1"></div>
+      <div class="item"><img src="assets/image/wea.png" alt="Slide 2"></div>
+      <div class="item"><img src="assets/image/images (1).jfif" alt="Slide 3"></div>
+    
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 2
+          },
+          1000: {
+            items: 3
+          }
+        }
+      });
+    });
+  </script>
+  <section id="about" class="about-section">
+    <div class="container">
+        <div class="about-header">
+            <h2>About Us</h2>
+            <p>Our Story, Our Mission, Our Brand</p>
+        </div>
+        <div class="about-content">
+            <div class="brand-story">
+                <h3>Our Story</h3>
+                <p>Founded in [Year], ClothingBrand is more than just a clothing store; it's a lifestyle. We started with a simple vision – to create stylish, high-quality clothing that empowers individuals to express their true selves. Our journey began with a passion for design and a desire to bring something unique to the fashion industry.</p>
+                <p>What began as a small boutique has now evolved into a globally recognized brand, known for its commitment to innovation, sustainability, and inclusivity. Our clothes are crafted with the finest materials, designed to fit seamlessly into everyday life while maintaining timeless style.</p>
+            </div>
+            <div class="mission">
+                <h3>Our Mission</h3>
+                <p>At ClothingBrand, our mission is to provide clothing that not only looks good but also makes you feel good. We are committed to offering sustainable, eco-friendly products that support ethical fashion practices. Our aim is to be a brand that stands for inclusivity, empowerment, and positive change in the fashion industry.</p>
+                <p>We believe that every individual deserves to feel confident and beautiful in what they wear, and we are here to provide that through our curated collections. Whether you’re looking for everyday essentials or statement pieces, we promise to bring you the latest trends with a focus on quality, comfort, and style.</p>
+            </div>
+            <div class="values">
+                <h3>Our Values</h3>
+                <ul>
+                    <li><strong>Sustainability:</strong> We prioritize eco-friendly materials and production methods to reduce our carbon footprint.</li>
+                    <li><strong>Quality:</strong> Every piece of clothing is made with attention to detail and durability to ensure it lasts.</li>
+                    <li><strong>Inclusivity:</strong> Our collections are designed for all shapes, sizes, and backgrounds because fashion is for everyone.</li>
+                    <li><strong>Innovation:</strong> We are always looking for new ways to evolve and bring fresh, exciting designs to our customers.</li>
+                    <li><strong>Customer Focus:</strong> Our customers are at the heart of everything we do. Your satisfaction is our priority.</li>
+                </ul>
+            </div>
+            <div class="brand-philosophy">
+                <h3>Our Brand Philosophy</h3>
+                <p>At ClothingBrand, we see fashion as an expression of individuality. Our designs are meant to empower our customers to embrace their unique personalities and make bold statements with their wardrobe choices. We believe in blending classic styles with modern aesthetics to create versatile pieces that work for any occasion, whether you're dressing up for a night out or keeping it casual on the weekends.</p>
+                <p>We also believe that fashion should be accessible to everyone, regardless of their size, gender, or background. That’s why we offer a wide range of sizes and designs, ensuring that everyone can find something they love.</p>
+            </div>
+        </div>
+        <div class="cta">
+            <p>Join us on our journey to make fashion a force for good. Explore our latest collections and discover what makes us different.</p>
+            <a href="#shop" class="btn">Shop Now</a>
+        </div>
+    </div>
+</section>
+<section id="shop" class="shop-section">
+  <div class="container">
+      <div class="shop-header">
+          <h2>Shop Our Collection</h2>
+          <p>Discover the latest trends, best sellers, and exclusive collections just for you.</p>
+      </div>
+
+      <!-- Filter Section -->
+      <div class="shop-filters">
+          <form class="filter-form">
+              <label for="category">Category:</label>
+              <select id="category">
+                  <option value="all">All</option>
+                  <option value="men">Men</option>
+                  <option value="women">Women</option>
+                  <option value="kids">Kids</option>
+                  <option value="sale">Sale</option>
+              </select>
+
+              <label for="size">Size:</label>
+              <select id="size">
+                  <option value="all">All Sizes</option>
+                  <option value="s">S</option>
+                  <option value="m">M</option>
+                  <option value="l">L</option>
+                  <option value="xl">XL</option>
+              </select>
+
+              <label for="price">Price Range:</label>
+              <input type="range" id="price" min="0" max="1000" step="10">
+              <span id="price-range-label">$0 - $1000</span>
+          </form>
+      </div>
+
+      <!-- Product Grid -->
+      <div class="product-grid">
+          <!-- Product Card 1 -->
+          <div class="product-card">
+              <div class="product-image">
+                  <img src="assets/image/imge22.jfif" alt="Product 1">
+                  <div class="quick-view-btn">Quick View</div>
+              </div>
+              <div class="product-details">
+                  <h3 class="product-title">Stylish Jacket</h3>
+                  <p class="product-price">$79.99</p>
+                  <button class="add-to-cart">Add to Cart</button>
+              </div>
+          </div>
+
+          <!-- Product Card 2 -->
+          <div class="product-card">
+              <div class="product-image">
+                  <img src="assets/image/11image.jfif" alt="Product 2">
+                  <div class="quick-view-btn">Quick View</div>
+              </div>
+              <div class="product-details">
+                  <h3 class="product-title">Casual T-Shirt</h3>
+                  <p class="product-price">$39.99</p>
+                  <button class="add-to-cart">Add to Cart</button>
+              </div>
+
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+                <img src="assets/image/image33.jfif" alt="Product 2">
+                <div class="quick-view-btn">Quick View</div>
+            </div>
+            <div class="product-details">
+                <h3 class="product-title">Casual Shirt</h3>
+                <p class="product-price">$39.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+
+          <!-- Additional Product Cards... -->
+      </div>
+
+      <!-- Sort & Pagination Section -->
+      <div class="shop-footer">
+          <div class="sort-options">
+              <label for="sort">Sort By:</label>
+              <select id="sort">
+                  <option value="new">New Arrivals</option>
+                  <option value="popularity">Most Popular</option>
+                  <option value="price-low-high">Price: Low to High</option>
+                  <option value="price-high-low">Price: High to Low</option>
+              </select>
+          </div>
+
+          <div class="pagination">
+              <button class="prev-btn">Prev</button>
+              <span>Page 1 of 10</span>
+              <button class="next-btn">Next</button>
+          </div>
+      </div>
+  </div>
+</section>
+<section id="blog" style="font-family: Arial, sans-serif;">
+  <div class="container">
+    <h2 class="section-title">Latest from Our Blog</h2>
+    <p class="section-subtitle">Stay updated with the latest trends, tips, and stories</p>
+    <div class="blog-grid">
+      <!-- Blog Post 1 -->
+      <div class="blog-post">
+        <img src="assets/image/11image.jfif" alt="Fashion Trends" class="blog-image">
+        <div class="blog-content">
+          <h3 class="blog-title">Top Fashion Trends of 2024</h3>
+          <p class="blog-description">Discover what’s trending this season and how to style them for every occasion.</p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+      <!-- Blog Post 2 -->
+      <div class="blog-post">
+        <img src="assets/image/wea.png" alt="Eco-Friendly Fashion" class="blog-image">
+        <div class="blog-content">
+          <h3 class="blog-title">Sustainable Fashion Tips</h3>
+          <p class="blog-description">Learn how our clothing line supports sustainability and eco-conscious living.</p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+      <div class="blog-post">
+        <img src="assets/image/images (1).jfif" alt="Eco-Friendly Fashion" class="blog-image">
+        <div class="blog-content">
+          <h3 class="blog-title">Sustainable Fashion Tips</h3>
+          <p class="blog-description">Learn how our clothing line supports sustainability and eco-conscious living.</p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+      <div class="blog-post">
+        <img src="assets/image/imge22.jfif" alt="Eco-Friendly Fashion" class="blog-image">
+        <div class="blog-content">
+          <h3 class="blog-title">Sustainable Fashion Tips</h3>
+          <p class="blog-description">Learn how our clothing line supports sustainability and eco-conscious living.</p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+      <div class="blog-post">
+        <img src="assets/image/ios.np.jpg" alt="Eco-Friendly Fashion" class="blog-image">
+        <div class="blog-content">
+          <h3 class="blog-title">Sustainable Fashion Tips</h3>
+          <p class="blog-description">Learn how our clothing line supports sustainability and eco-conscious living.</p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+      <!-- Blog Post 3 -->
+      <div class="blog-post">
+        <img src="assets/image/nexora.png" alt="Styling Guide" class="blog-image">
+        <div class="blog-content">
+          <h3 class="blog-title">Your Guide to Perfect Styling</h3>
+          <p class="blog-description">Tips from fashion experts to help you elevate your wardrobe.</p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+    </div>
+    <div class="blog-footer">
+      <a href="#" class="view-all-btn">View All Posts</a>
+    </div>
+  </div>
+</section>
+<section id="chatbot" style="font-family: Arial, sans-serif;">
+  <div class="chatbot-container">
+    <div class="chat-header">
+      <h2>StyleBot</h2>
+      <p>Your personal fashion assistant</p>
+    </div>
+    <div class="chat-body" id="chatBody">
+      <div class="bot-message">
+        <p>Hi there! How can I assist you today? 😊</p>
+      </div>
+    </div>
+    <div class="chat-footer">
+      <input type="text" id="userInput" placeholder="Type your message here..." />
+      <button id="sendBtn">Send</button>
+    </div>
+  </div>
+</section>
+<section id="contact" style="font-family: Arial, sans-serif;">
+  <div class="contact-container">
+    <h2 class="section-title">Contact Us</h2>
+    <p class="section-subtitle">We'd love to hear from you! Fill out the form below and we'll get back to you as soon as possible.</p>
+    
+    <div class="contact-form">
+      <form action="https://example.com/submit" method="post">
+        <!-- Name -->
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your full name" required />
+        </div>
+        
+        <!-- Email -->
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email address" required />
+        </div>
+        
+        <!-- Subject -->
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="Enter the subject" required />
+        </div>
+        
+        <!-- Message -->
+        <div class="form-group">
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message here" required></textarea>
+        </div>
+        
+        <!-- Submit Button -->
+        <div class="form-group">
+          <button type="submit" class="btn-submit">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+<footer id="footer" style="font-family: Arial, sans-serif;">
+  <div class="footer-container">
+    <!-- Logo and About -->
+    <div class="footer-column">
+      <h3>About Us</h3>
+      <p>Your trusted destination for stylish clothing, crafted with care and passion. Join us in redefining fashion!</p>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-column">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#faq">FAQs</a></li>
+      </ul>
+    </div>
+
+    <!-- Social Media -->
+    <div class="footer-column">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="https://facebook.com" target="_blank" class="icon facebook">Facebook</a>
+        <a href="https://twitter.com" target="_blank" class="icon twitter">Twitter</a>
+        <a href="https://instagram.com" target="_blank" class="icon instagram">Instagram</a>
+        <a href="https://linkedin.com" target="_blank" class="icon linkedin">LinkedIn</a>
+      </div>
+    </div>
+
+    <!-- Newsletter -->
+    <div class="footer-column">
+      <h3>Subscribe</h3>
+      <p>Stay updated with our latest arrivals and exclusive offers!</p>
+      <form action="https://example.com/subscribe" method="post" class="newsletter-form">
+        <input type="email" placeholder="Enter your email" required />
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2024 Your Brand Name. All rights reserved.</p>
+  </div>
+</footer>
+
+  <script src="assets/javascript/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+</body>
+
+</html>
